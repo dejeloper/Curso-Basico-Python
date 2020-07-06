@@ -1,0 +1,10 @@
+pesos = float(input("¿Cuántos pesos Colombianos tienes?: "))
+valor_dolar = 3650.05
+dolares = round(pesos / valor_dolar, 2)
+print("Tienes $" + str(dolares) + " dólares")
+print("")
+print("************************************")
+print("")
+dolares = float(input("¿Cuántos dólares tienes?: "))
+pesos = round(dolares * valor_dolar, 2)
+print("Tienes $" + str(pesos) + " pesos Colombianos")
